@@ -1,0 +1,38 @@
+#projects .proj__img {
+    border-radius: 20px;
+    border: 2px white solid;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+#projects .proj {
+    width: 47%;
+    border: 3px double white;
+    box-shadow: 10px 10px whitesmoke;
+    padding: 20px 15px 15px 15px;
+    margin-bottom: 2rem;
+}
+
+div#projects {
+    margin-left: 10vw;;
+    margin-right: 10vw;
+    display: flex;
+}
+
+#projects .projects__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projects .proj_sep {
+    margin-left: 1.5%;
+}
+
+@media only screen and (max-width: 1200px) {
+    #projects .proj {
+        width: 95% !important;
+    }
+    #projects .proj_sep {
+        margin-left: 0%;
+    }
+}

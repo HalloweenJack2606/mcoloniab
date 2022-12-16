@@ -1,0 +1,53 @@
+#header nav {
+    position: relative;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#header .sticky__nav {
+    height: 1vh;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    position: fixed;
+    z-index: 1000;
+}
+
+#header .nav__grid {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#header .grid__cell {
+    width: 100%;
+    display: flex;
+}
+
+#header .selectable__cell {
+    cursor: pointer;
+    border: none;
+}
+
+#header .selectable__cell:hover {
+    border-top: 1px solid white;
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+}
+
+div#header {
+    z-index: 3;
+}
+
+@media only screen and (max-width: 1150px) {
+    .grid_no_mobile {
+        display: none !important;
+    }
+}
