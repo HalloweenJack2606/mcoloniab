@@ -74,9 +74,27 @@ div#separator {
 @media only screen and (max-width: 1200px) {
     #home .info {
         width: 95% !important;
-        flex-wrap: wrap;
+        flex-wrap: wrap !important;
     }
     div#home {
-        display: block;
+        display: block !important;
+    }
+
+    #home div.about__favs {
+        display: block !important;
+    }
+
+    #home div.about__fav_item {
+        width: 100% !important;
+    }
+
+    #home div.about {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 800px) {
+    #home div.info img {
+        width: 50% !important;
     }
 }

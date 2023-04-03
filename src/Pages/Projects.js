@@ -53,6 +53,7 @@ export default function Projects() {
   useEffect(() => {
     const hiddenElements = document.querySelectorAll('.anim_hid');
     hiddenElements.forEach((el) => observer.observe(el));
+    window.scrollTo(0, 0);
   });
 
   return (

@@ -23,10 +23,30 @@ export default function Home() {
         "King Crimson",
         "Yes",
         "The Doors",
+        "Charly García",
     ];
     let jobs = [
         {
-            dates: "June 2020 - Today",
+            dates: "March 2023 - Today",
+            place: "My Industrial Data",
+            position: "Lead Programmer",
+            tasks: [
+                "Worked with AWS and IoT devices implementations",
+                "Wrote a Django backend for a massive use application"
+            ]
+        },
+        {
+            dates: "January 2023 - March 2023",
+            place: "BringeMe - Senegal",
+            position: "Backend & Mobile Programmer",
+            tasks: [
+                "App with the same functionalities as Rappi/Doordash",
+                "Developed a Android and iOS app with React Native",
+                "Implemented E-Commerce for Mobile and Web",
+            ]
+        },
+        {
+            dates: "June 2020 - December 2022",
             place: "Company: E-Pask digital solutions",
             position: "Lead Programmer",
             tasks: [
@@ -126,6 +146,7 @@ export default function Home() {
     useEffect(() => {
         const hiddenElements = document.querySelectorAll('.anim_hid');
         hiddenElements.forEach((el) => observer.observe(el));
+        window.scrollTo(0, 0);
     });
 
   return (
@@ -148,8 +169,7 @@ export default function Home() {
                 <span>+51 992 333 533 (Perú)</span><br/>
                 <span>+49 176 60897786 (Deutschland)</span><br/>
                 <span>mcoloniab.com</span><br/>
-                <span>Berlin, DE</span><br/>
-                <span>(Currently in Lima, Perú)</span><br/>
+                <span>Berlin, DE & Lima, PE</span><br/>
             </div>
             <div>
                 <div className='my-3'>
@@ -164,7 +184,8 @@ export default function Home() {
                     <b>SKILLS WEB</b><br/>
                 </div>
                 <span>HTML/CSS</span><br/>
-                <span>Django/Python/React</span><br/>
+                <span>Django/Python</span><br/>
+                <span>React/React Native</span><br/>
                 <span>JavaScript/PHP</span><br/>
                 <span>Laravel/Vue</span><br/>
                 <span>Flutter</span><br/>
@@ -198,14 +219,12 @@ export default function Home() {
                     <br/><br/>
                     I've been doing Graphics Programming with OpenGL since 2017 and made a couple of 2D engines. On 2020 I launched a "test demo" for my engine on Steam called MaryPark St. Mainly to test if my engines were capable of making an actual game and not just cool things to put on my CV.
                     <br/><br/>
-                    Currently I'm working on my first 2D/3D engine (but not my first 3D project). I'm also researching raytracing and VR technology and since 2020 I've been lead programmer at E-Pask managing small teams and developing custom programs for big companies.
-                    <br/><br/>
-                    For me, games are more than just a bunch of pixels on a screen or a way to have fun. Games are much more than that, art, unique life-changing experiences in some cases.
+                    Currently I'm directing a project for a 2D/3D and raytracing capable engine.
                     <br/><br/>
                 </p>
             </div>
             <div className='about__favs anim_hid'>
-                <div className='about__fav_item'>
+                <div className='about__fav_item mb-4'>
                     <b>My favorite games:</b><br/>
                     {games.map((element, index) => {
                             return (<><span key={index} className="anim_hid">- {element}</span><br/></>);
