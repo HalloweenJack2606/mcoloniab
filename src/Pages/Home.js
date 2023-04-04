@@ -176,8 +176,8 @@ export default function Home() {
                     <b>SPOKEN LANGUAGES</b><br/>
                 </div>
                 <span>Spanish (Native)</span><br/>
-                <span>English (Certified C1 on 2017)</span><br/>
-                <span>German (Certified B2 on 2020)</span><br/>
+                <span>English (Certified C1 in 2017)</span><br/>
+                <span>German (Certified B2 in 2020)</span><br/>
             </div>
             <div>
                 <div className='my-3'>
