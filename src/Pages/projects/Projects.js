@@ -1,10 +1,10 @@
 import React, {useEffect} from 'react';
-import Header from './Components/Header';
-import voxel from '../images/voxel.jpg';
-import mary from '../images/mary.png';
-import engine from '../images/engine.png';
-import sandbox from '../images/sandbox.png';
-import happyhere from '../images/happyhere.png';
+import Header from '../Components/Header';
+import voxel from '../../images/voxel.jpg';
+import mary from '../../images/mary.png';
+import engine from '../../images/engine.png';
+import sandbox from '../../images/sandbox.png';
+import happyhere from '../../images/happyhere.png';
 import './Projects.css';
 
 export default function Projects() {

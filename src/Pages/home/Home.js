@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react'
-import pp from '../images/pp.jpg';
+import pp from '../../images/pp.jpg';
 import './Home.css';
-import Separator from './Components/Separator';
-import Header from './Components/Header';
+import Separator from '../Components/Separator';
+import Header from '../Components/Header';
 
 export default function Home() {
-    let games = [
+    const games = [
         "Elden Ring",
         "Earthbound",
         "The Witness",
@@ -15,7 +15,8 @@ export default function Home() {
         "Portal 2",
         "Minecraft",
     ];
-    let artists = [
+
+    const artists = [
         "David Bowie",
         "Arctic Monkeys",
         "Kendrick Lamar",
@@ -25,7 +26,19 @@ export default function Home() {
         "The Doors",
         "Charly García",
     ];
-    let jobs = [
+
+    const jobs = [
+        {
+            dates: "July 2023 - Today",
+            place: "Stracon Technologies",
+            position: "Fullstack Programmer",
+            tasks: [
+                "Worked on vehicle and personnel proximity system",
+                "Developed both front-end and back-end for smart gate project",
+                "Contributed to the front-end development of the personnel tracking system",
+                "Worked with LoRa network and UWB (Ultra-Wideband) technologies"
+            ]
+        },
         {
             dates: "March 2023 - Today",
             place: "My Industrial Data",
@@ -36,9 +49,9 @@ export default function Home() {
             ]
         },
         {
-            dates: "January 2023 - March 2023",
+            dates: "January 2023 - Today",
             place: "BringeMe - Senegal",
-            position: "Backend & Mobile Programmer",
+            position: "Front/Backend & Mobile Programmer",
             tasks: [
                 "App with the same functionalities as Rappi/Doordash",
                 "Developed a Android and iOS app with React Native",
@@ -157,7 +170,8 @@ export default function Home() {
                 <img src={pp} width="70%"/>
                 <div className='mt-3'>
                     <b className='name'>Marcelo Colonia</b><br/>
-                    <b className='name_desc'>programmer &amp; game designer</b>
+                    <b className='name_desc'>programmer &amp; game designer</b><br/>
+                    <b className='name_desc'>Stracon Technologies, My Industrial Data</b>
                 </div>
             </div>
             <Separator/>
@@ -215,7 +229,7 @@ export default function Home() {
                 </div>
                 <br/>
                 <p>
-                    My name is Marcelo Colonia, I'm a 21 year old Berlin-based game designer and programmer. I've had game development as my passion for as long as I can remember and have been studying coding since I was 13 years old.
+                    My name is Marcelo Colonia, I'm a 22 year old Berlin & Lima -based game designer and programmer. I've had game development as my passion for as long as I can remember and have been studying coding since I was 13 years old.
                     <br/><br/>
                     I've been doing Graphics Programming with OpenGL since 2017 and made a couple of 2D engines. On 2020 I launched a "test demo" for my engine on Steam called MaryPark St. Mainly to test if my engines were capable of making an actual game and not just cool things to put on my CV.
                     <br/><br/>
