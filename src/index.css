@@ -14,5 +14,9 @@ code {
 
 @font-face {
   font-family: "mcoloniab";
-  src: url("./fonts/SourceCodePro-Light.ttf") format("truetype");
+  src: url("./fonts/FiraCode-Light.ttf") format("truetype");
+}
+
+:root {
+  --cool-button-rotation: 3deg;
 }

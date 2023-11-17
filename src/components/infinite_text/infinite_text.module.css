@@ -1,0 +1,44 @@
+.infiniteAnimation {
+    animation: scrollAnimation 120s linear infinite;
+}
+
+.infiniteAnimationRight {
+    animation: scrollAnimationRight 120s linear infinite;
+}
+
+.infiniteAnimation,
+.infiniteAnimationRight {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.text {
+    font-size: 4.7rem;
+    font-weight: 700;
+}
+
+@media (max-width: 1000px) {
+    .text {
+        font-size: 2rem !important;
+    }
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-1200%);
+    }
+}
+
+@keyframes scrollAnimationRight {
+    0% {
+        transform: translateX(-1200%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}

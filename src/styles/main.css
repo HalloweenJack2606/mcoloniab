@@ -1,0 +1,8 @@
+.title {
+    background-color: #000;
+    color: #fff8f8;
+    padding: 0.2rem 2rem;
+    user-select: none;
+    font-size: 3rem;
+    font-weight: 600;
+}

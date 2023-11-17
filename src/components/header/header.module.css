@@ -1,0 +1,48 @@
+.outerContainer {
+    width: 100%;
+    position: fixed;
+    user-select: none;
+    background-color: #000000;
+    color: #fff8f8;
+    padding: 1rem 0;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.headerItem {
+    flex-basis: 33%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu {
+    position: relative;
+}
+
+.menuItem {
+    padding: 0.2rem 0;
+}
+
+.menuItem:hover {
+    color: #000000;
+    background-color: #fff8f8;
+}
+
+.show {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .show {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+}

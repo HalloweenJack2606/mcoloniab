@@ -1,31 +1,27 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body,
+#root {
+  height: 100%;
+  animation: backgroundAnimation 20s linear infinite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes backgroundAnimation {
+  0% {
+    background-color: #bad8e5;
+  }
+  50% {
+    background-color: #cfe5ba;
+  }
+  100% {
+    background-color: #bad8e5;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 * {
-  background-color: black;
-  color: white;
   font-family: 'mcoloniab', monospace;
 }

@@ -1,0 +1,19 @@
+.container {
+    background-color: #000;
+    color: #fff8f8;
+    display: flex;
+    width: 80%;
+    user-select: none;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    transition-property: width, padding-top, padding-bottom, margin-top, margin-bottom;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.container:hover {
+    width: 250px !important;
+    padding: 0.8rem 0 !important;
+    margin: 0.2rem 0 !important;
+}

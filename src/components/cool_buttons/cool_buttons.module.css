@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+.buttonContainer {
+    border: #fff8f8 3px solid;
+    background-color: #000000;
+    color: #fff8f8;
+    font-size: 4rem;
+    font-weight: 600;
+    width: 80%;
+    cursor: pointer;
+}
+
+.normalAnimation {
+    animation: coolButton 1s linear infinite;
+}
+
+.reverseAnimation {
+    animation: coolButtonReverse 1s linear infinite;
+}
+
+.buttonContainer:hover {
+    background-color: #fff8f8;
+    color: #000000;
+}
+
+@keyframes coolButton {
+    0% {
+        transform: rotateZ(calc(var(--cool-button-rotation) * -1));
+    }
+
+    49% {
+        transform: rotateZ(calc(var(--cool-button-rotation) * -1));
+    }
+
+    50% {
+        transform: rotateZ(var(--cool-button-rotation));
+    }
+
+    100% {
+        transform: rotateZ(var(--cool-button-rotation));
+    }
+}
+
+@keyframes coolButtonReverse {
+    0% {
+        transform: rotateZ(var(--cool-button-rotation));
+    }
+
+    49% {
+        transform: rotateZ(var(--cool-button-rotation));
+    }
+
+    50% {
+        transform: rotateZ(calc(var(--cool-button-rotation) * -1));
+    }
+
+    100% {
+        transform: rotateZ(calc(var(--cool-button-rotation) * -1));
+    }
+}
