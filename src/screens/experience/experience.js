@@ -3,7 +3,7 @@ import PageTitle from "../../components/page_title/page_title";
 import JobSection from "./components/job_section/job_section";
 import Header from "../../components/header/header";
 
-export default function Career() {
+export default function Experience() {
     const jobs = [
         {company: "Stracontech", start: "07/2023", position: "Fullstack Programmer"},
         {company: "My Industrial Data", start: "03/2023", position: "Lead Programmer"},
@@ -19,7 +19,7 @@ export default function Career() {
     return (
         <div>
             <Header/>
-            <PageTitle title={'Work'}/>
+            <PageTitle title={'experience'}/>
             <div style={{
                 display: 'flex',
                 flexDirection: 'column',

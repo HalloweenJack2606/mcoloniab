@@ -4,7 +4,7 @@ import HomeButton from "../../components/home_buttons/home_buttons";
 
 export default function Home() {
     return (
-        <div style={{height: '100%', display: 'flex', flexDirection: 'column'}}>
+        <div style={{height: '100%', display: 'flex', flexDirection: 'column', overflowX: 'hidden'}}>
             <HomeInfinite/>
             <div style={{
                 display: 'flex',
@@ -14,11 +14,11 @@ export default function Home() {
                 alignItems: 'center',
                 flex: 1
             }}>
-                <HomeButton url={'about'}><div>About</div></HomeButton>
-                <HomeButton url={'work'}><div>Work</div></HomeButton>
-                <HomeButton><s>Projects</s></HomeButton>
-                <HomeButton><s>Blog</s></HomeButton>
-                <HomeButton><s>Articles</s></HomeButton>
+                <HomeButton url={'about'}><div>about</div></HomeButton>
+                <HomeButton url={'experience'}><div>experience</div></HomeButton>
+                <HomeButton><s>projects</s></HomeButton>
+                <HomeButton><s>blog</s></HomeButton>
+                <HomeButton><s>articles</s></HomeButton>
             </div>
         </div>
     )

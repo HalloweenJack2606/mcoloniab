@@ -45,7 +45,7 @@ function HomeInfinite() {
                     color: '#f3dbdb',
                     padding: '0 1rem',
                     userSelect: "none"
-                }}>Who is Marcelo Colonia?</div>
+                }}>who is marcelo colonia?</div>
             </InfiniteText>
             <InfiniteText inverse={false}>
                 <div style={{
@@ -53,7 +53,7 @@ function HomeInfinite() {
                     color: '#000',
                     padding: '1rem 1rem',
                     userSelect: "none",
-                }}>¿Quién es Marcelo Colonia?</div>
+                }}>¿quién es marcelo colonia?</div>
             </InfiniteText>
             <InfiniteText inverse={true}>
                 <div style={{
@@ -61,7 +61,7 @@ function HomeInfinite() {
                     color: '#f3dbdb',
                     padding: '0 1rem',
                     userSelect: "none",
-                }}>Wer ist Marcelo Colonia?</div>
+                }}>wer ist marcelo colonia?</div>
             </InfiniteText>
         </div>
     )

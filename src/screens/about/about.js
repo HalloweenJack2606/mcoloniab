@@ -20,7 +20,7 @@ export default function About() {
     return (
         <div>
             <Header/>
-            <PageTitle title={'About'}/>
+            <PageTitle title={'about'}/>
 
             <div style={{
                 display: 'flex',
@@ -125,9 +125,9 @@ export default function About() {
                                 <div>Click to see my work!</div>
                             </CoolButton>
                             <div style={{margin: '2rem 0'}}/>
-                            {false && <CoolButton reverse url={'/projects'}>
+                            <CoolButton reverse url={'/projects'}>
                                 <div>Click to see my projects!</div>
-                            </CoolButton>}
+                            </CoolButton>
                         </div>
                     </div>
                 </div>
