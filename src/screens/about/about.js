@@ -121,7 +121,7 @@ export default function About() {
                             padding: '2rem 0.4rem',
                             marginTop: '1rem',
                         }}>
-                            <CoolButton url={'/work'}>
+                            <CoolButton url={'/experience'}>
                                 <div>Click to see my work!</div>
                             </CoolButton>
                             <div style={{margin: '2rem 0'}}/>

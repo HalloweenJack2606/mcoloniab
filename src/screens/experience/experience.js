@@ -13,7 +13,6 @@ export default function Experience() {
         {company: "FLI!", start: "10/2020", end: "12/2020", position: "Freelance Programmer"},
         {company: "Bit2Bit Americas", start: "01/2019", end: "06/2019", position: "Internship"},
         {company: "Real Estate Group ProCity", start: "02/2017", end: "03/2017", position: "Freelance Programmer"},
-        {company: "Real Estate Group ProCity", start: "02/2017", end: "03/2017", position: "Freelance Programmer"},
     ]
 
     return (
