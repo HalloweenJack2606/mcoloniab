@@ -5,7 +5,7 @@ import Header from "../../components/header/header";
 
 export default function Experience() {
     const jobs = [
-        {company: "Stracontech", start: "07/2023", position: "Fullstack Programmer"},
+        {company: "Stracontech", start: "07/2023", end: "07/2024", position: "Fullstack Programmer"},
         {company: "My Industrial Data", start: "03/2023", position: "Lead Programmer"},
         {company: "BringeMe - Senegal", start: "01/2023", position: "Front/Backend & Mobile Programmer"},
         {company: "E-Pask digital solutions", start: "06/2020", end: "12/2022", position: "Lead Programmer"},

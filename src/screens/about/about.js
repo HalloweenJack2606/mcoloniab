@@ -10,11 +10,11 @@ export default function About() {
     const about = [
         "My name is Marcelo Colonia, I'm a 22 year old Berlin & Lima -based game designer and programmer. I've had game development as my passion for as long as I can remember and have been studying coding since I was 13 years old.",
         "I've been doing Graphics Programming with OpenGL since 2017 and made a couple of 2D engines. On 2020 I launched a \"test demo\" for my engine on Steam called MaryPark St. Mainly to test if my engines were capable of making an actual game and not just cool things to put on my CV.",
-        "Currently I work at Stracontech & My Industrial Data in Lima, Perú I'm directing a project for a 2D/3D and raytracing capable engine."
+        "Currently I'm working on a 2D Roguelike called Davos with my own custom engine."
     ]
 
     const games = ["Elden Ring", "Earthbound", "The Witness", "Undertale", "Life is Strange", "Red Dead Redemption 2", "Portal 2", "Minecraft"]
-    const artists = ["David Bowie", "Arctic Monkeys", "Kendrick Lamar", "Pink Floyd", "King Crimson", "Yes", "The Doors", "Charly García"]
+    const artists = ["David Bowie", "Arctic Monkeys", "Kendrick Lamar", "Pink Floyd", "King Crimson", "Yes", "Serú Girán", "Charly García"]
 
 
     return (

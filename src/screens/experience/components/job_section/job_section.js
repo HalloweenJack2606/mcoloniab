@@ -16,7 +16,7 @@ export default function JobSection({company, start, end, position }) {
         const years = Math.floor(diffInMilliseconds / (365 * 24 * 60 * 60 * 1000));
         const months = Math.floor((diffInMilliseconds % (365 * 24 * 60 * 60 * 1000)) / (30 * 24 * 60 * 60 * 1000));
 
-        return `${years < 1 ? '' : years + ` year${years > 1 ? 's' : ''}, `}${months < 1 ? 1 : months} month${months > 1 ? 's' : ''}`;
+        return `${years < 1 ? '' : years + ` year${years > 1 ? 's' : ''}, `}${months < 1 && years < 1 ? 1 : months} month${months !== 1 ? 's' : ''}`;
     };
 
     const formattedDate = (date) => {
