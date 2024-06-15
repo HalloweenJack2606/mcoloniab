@@ -41,7 +41,6 @@ export default function About() {
                             {/*About*/}
                             <b style={{fontSize: '1.2rem'}}>Marcelo Colonia</b><br/>
                             <b style={{fontSize: '0.8rem'}}>programmer &amp; game designer</b><br/>
-                            <b style={{fontSize: '0.8rem'}}>Stracon Technologies, My Industrial Data</b>
 
                             <div className={styles.textContainer} style={{margin: '1rem 0', display: 'flex', justifyContent: 'center'}}>
                                 <div style={{backgroundColor: '#fff', margin: '0.1rem, 0', padding: '1px 0', width: '100%'}}/>
