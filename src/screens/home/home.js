@@ -14,6 +14,7 @@ export default function Home() {
                 alignItems: 'center',
                 flex: 1
             }}>
+                <HomeButton url={'bamtang'}><div>bamtang</div></HomeButton>
                 <HomeButton url={'about'}><div>about</div></HomeButton>
                 <HomeButton url={'experience'}><div>experience</div></HomeButton>
                 <HomeButton><s>projects</s></HomeButton>

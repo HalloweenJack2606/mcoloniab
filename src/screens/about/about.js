@@ -52,7 +52,7 @@ export default function About() {
                             <div>+51 992 333 533 (Perú)</div>
                             <div>+49 176 60897786 (Deutschland)</div>
                             <div>mcoloniab.com</div>
-                            <div>Berlin, DE & Lima, PE</div>
+                            <div>Lima, PE & Berlin, DE</div>
 
                             {/*Contact*/}
                             <div style={{margin: '1rem 0'}}><b>SPOKEN LANGUAGES</b></div>

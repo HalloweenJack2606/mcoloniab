@@ -9,6 +9,7 @@ export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const menuItems = [
+        {title: 'bamtang', url: '/bamtang'},
         {title: 'about', url: '/about'},
         {title: 'experience', url: '/experience'},
         {title: 'projects', url: '/projects', blocked: true},
