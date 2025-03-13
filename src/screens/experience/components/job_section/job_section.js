@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import styles from './job_section.module.css';
 
-export default function JobSection({company, start, end, position }) {
+export default function JobSection({company, start, end, position, work }) {
     const [time, setTime] = useState("");
     const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
@@ -41,6 +41,16 @@ export default function JobSection({company, start, end, position }) {
             }}>
                 <div style={{color: '#ddd'}}>{formattedDate(start)} - {end ? formattedDate(end) : "Today"}</div>
                 <div style={{paddingLeft: '0.2rem', color: '#ddd',}}>({time})</div>
+            </div>
+
+            <div>
+                {work?.map((item, index) => {
+                    return (
+                        <div key={index}>
+                            - {item}
+                        </div>
+                    )
+                })}
             </div>
 
         </div>

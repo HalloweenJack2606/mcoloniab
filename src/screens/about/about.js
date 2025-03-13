@@ -8,12 +8,12 @@ import Header from "../../components/header/header";
 export default function About() {
 
     const about = [
-        "My name is Marcelo Colonia, I'm a 22 year old Berlin & Lima -based game designer and programmer. I've had game development as my passion for as long as I can remember and have been studying coding since I was 13 years old.",
+        "My name is Marcelo Colonia, I'm a 23 year old Lima-based game designer and programmer. I've had game development as my passion for as long as I can remember and have been studying coding since I was 13 years old.",
         "I've been doing Graphics Programming with OpenGL since 2017 and made a couple of 2D engines. On 2020 I launched a \"test demo\" for my engine on Steam called MaryPark St. Mainly to test if my engines were capable of making an actual game and not just cool things to put on my CV.",
         "Currently I'm working on a 2D Roguelike called Davos with my own custom engine."
     ]
 
-    const games = ["Elden Ring", "Earthbound", "The Witness", "Undertale", "Life is Strange", "Red Dead Redemption 2", "Portal 2", "Minecraft"]
+    const games = ["Elden Ring", "Earthbound", "The Witness", "Undertale", "Life is Strange", "Red Dead Redemption 2", "Portal 2", "Minecraft", "Return of the Obra Dinn"]
     const artists = ["David Bowie", "Arctic Monkeys", "Kendrick Lamar", "Pink Floyd", "King Crimson", "Yes", "Serú Girán", "Charly García"]
 
 
@@ -124,9 +124,9 @@ export default function About() {
                                 <div>Click to see my work!</div>
                             </CoolButton>
                             <div style={{margin: '2rem 0'}}/>
-                            <CoolButton reverse url={'/projects'}>
+                            {/*<CoolButton reverse url={'/projects'}>
                                 <div>Click to see my projects!</div>
-                            </CoolButton>
+                            </CoolButton>*/}
                         </div>
                     </div>
                 </div>
