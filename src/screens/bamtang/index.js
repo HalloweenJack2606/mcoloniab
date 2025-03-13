@@ -48,6 +48,13 @@ export default function Bamang() {
                     Mi teléfono de contacto es: +51 992333533
                     <br/><br/>
                     Espero les guste mi perfil y gracias por considerarme!
+                    <br/><br/><br/>
+                    psdt.
+                    <br/>
+                    Me gustaría hacer una demo de proyectos que he trabajado solo como mi motor de juegos o editor.
+                    <br/><br/>
+                    La estructura los proyectos del examen es similar a la que suelo trabajar con mis juegos indie, en
+                    caso hubiera algún problema con los proyectos (lo cual dudo) por favor contactarme.
                 </div>
             </div>
         </div>
