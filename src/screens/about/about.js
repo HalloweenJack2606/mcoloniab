@@ -8,8 +8,11 @@ import Header from "../../components/header/header";
 export default function About() {
 
     const about = [
-        "Actualmente me especializo en el desarrollo de soluciones de inteligencia artificial, utilizando LangChain como framework principal, junto con herramientas complementarias como LangGraph y LangSmith. He trabajado con diversos modelos de lenguaje, incluyendo los de OpenAI y Hugging Face, además de integrar servicios cloud como Azure Cognitive Services.",
-        "A lo largo de mi experiencia, he desarrollado sólidas habilidades en prompt engineering, fine-tuning de modelos, tool calling y en la creación de agentes autónomos. También cuento con experiencia en el trabajo con bases de datos vectoriales y modelos de embeddings, optimizando soluciones orientadas a la generación de conocimiento y automatización de procesos.",
+        "My name is Marcelo Colonia. I'm a 23-year-old game designer and programmer based in Lima. Game development has been my passion for as long as I can remember, and I've been studying coding since I was 13 years old.",
+        "Since 2017, I've been doing graphics programming with OpenGL and have built a couple of 2D engines. In 2020, I launched a test demo for one of my engines on Steam called MaryPark St., mainly to see if my engines were capable of making a real game — not just cool things to put on my CV.",
+        "Currently, I'm working on a 2D roguelike called Davos, built with my own custom engine.",
+        "In addition to game development, I specialize in creating artificial intelligence solutions, using LangChain as my primary framework alongside complementary tools like LangGraph and LangSmith. I have extensive experience with language models from OpenAI and Hugging Face, and I've integrated cloud services such as Azure Cognitive Services and AWS into my projects.",
+        "Throughout my work, I’ve built strong skills in prompt engineering, model fine-tuning, tool calling, and the development of autonomous agents. I also have hands-on experience with vector databases and embedding models, optimizing solutions focused on knowledge generation and process automation."
     ]
 
     const games = ["Elden Ring", "Earthbound", "The Witness", "Undertale", "Life is Strange", "Red Dead Redemption 2", "Portal 2", "Minecraft", "Return of the Obra Dinn"]
