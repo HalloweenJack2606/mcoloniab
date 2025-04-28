@@ -8,9 +8,8 @@ import Header from "../../components/header/header";
 export default function About() {
 
     const about = [
-        "My name is Marcelo Colonia, I'm a 23 year old Lima-based game designer and programmer. I've had game development as my passion for as long as I can remember and have been studying coding since I was 13 years old.",
-        "I've been doing Graphics Programming with OpenGL since 2017 and made a couple of 2D engines. On 2020 I launched a \"test demo\" for my engine on Steam called MaryPark St. Mainly to test if my engines were capable of making an actual game and not just cool things to put on my CV.",
-        "Currently I'm working on a 2D Roguelike called Davos with my own custom engine."
+        "Actualmente me especializo en el desarrollo de soluciones de inteligencia artificial, utilizando LangChain como framework principal, junto con herramientas complementarias como LangGraph y LangSmith. He trabajado con diversos modelos de lenguaje, incluyendo los de OpenAI y Hugging Face, además de integrar servicios cloud como Azure Cognitive Services.",
+        "A lo largo de mi experiencia, he desarrollado sólidas habilidades en prompt engineering, fine-tuning de modelos, tool calling y en la creación de agentes autónomos. También cuento con experiencia en el trabajo con bases de datos vectoriales y modelos de embeddings, optimizando soluciones orientadas a la generación de conocimiento y automatización de procesos.",
     ]
 
     const games = ["Elden Ring", "Earthbound", "The Witness", "Undertale", "Life is Strange", "Red Dead Redemption 2", "Portal 2", "Minecraft", "Return of the Obra Dinn"]
